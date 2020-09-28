@@ -1,0 +1,52 @@
+section {
+  width: 1300px;
+  height: 470px;
+}
+
+div {
+  padding: 30px;
+}
+#sec1 {
+  background-color: #dfe6e9;
+}
+
+#sec2 {
+  background-color: #30336b;
+}
+
+img {
+  width: 600px;
+  height: 250px;
+}
+
+#img1 {
+  margin-right: 35px;
+}
+
+#img2 {
+  margin-right: 35px;
+}
+
+h1,
+p {
+  font-family: sans-serif;
+}
+
+h1:hover {
+  font-weight: bold;
+  color: rgb(4, 44, 177);
+}
+
+p::selection {
+  color: white;
+  background-color: goldenrod;
+}
+
+p::after {
+  content: "Read More >>";
+  color: blue;
+}
+
+p::first-letter {
+  font-size: large;
+}
